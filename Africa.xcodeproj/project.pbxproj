@@ -30,6 +30,8 @@
 		F9B23225294DF54A00C9E228 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B23224294DF54A00C9E228 /* GalleryView.swift */; };
 		F9B23227294DF62B00C9E228 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B23226294DF62B00C9E228 /* MainView.swift */; };
 		F9B2322B294E050A00C9E228 /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B2322A294E050A00C9E228 /* CoverImageView.swift */; };
+		F9B2322F294E0C7600C9E228 /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B2322E294E0C7600C9E228 /* CoverImageModel.swift */; };
+		F9B23232294E0E5C00C9E228 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B23231294E0E5C00C9E228 /* CodableBundleExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,8 @@
 		F9B23224294DF54A00C9E228 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		F9B23226294DF62B00C9E228 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		F9B2322A294E050A00C9E228 /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
+		F9B2322E294E0C7600C9E228 /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
+		F9B23231294E0E5C00C9E228 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		F9B231D7294DE35100C9E228 /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				F9B23230294E0DF500C9E228 /* Extension */,
+				F9B2322D294E0C4900C9E228 /* Model */,
 				F9B23229294E04F200C9E228 /* View */,
 				F9B2321E294DEBAC00C9E228 /* Info.plist */,
 				F9B23215294DE8DC00C9E228 /* Data */,
@@ -156,6 +162,22 @@
 				F9B2322A294E050A00C9E228 /* CoverImageView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		F9B2322D294E0C4900C9E228 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F9B2322E294E0C7600C9E228 /* CoverImageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F9B23230294E0DF500C9E228 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F9B23231294E0E5C00C9E228 /* CodableBundleExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,10 +267,12 @@
 				F9B231DB294DE35100C9E228 /* ContentView.swift in Sources */,
 				F9B23227294DF62B00C9E228 /* MainView.swift in Sources */,
 				F9B2322B294E050A00C9E228 /* CoverImageView.swift in Sources */,
+				F9B2322F294E0C7600C9E228 /* CoverImageModel.swift in Sources */,
 				F9B23223294DF51D00C9E228 /* MapView.swift in Sources */,
 				F9B231D9294DE35100C9E228 /* AfricaApp.swift in Sources */,
 				F9B23221294DF49C00C9E228 /* VideoListView.swift in Sources */,
 				F9B23225294DF54A00C9E228 /* GalleryView.swift in Sources */,
+				F9B23232294E0E5C00C9E228 /* CodableBundleExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
